@@ -15,7 +15,7 @@
      * createPlatform() takes these arguments:
      *      
      *      createPlatform(x, y, scaleX, scaleY);
-     * 
+     
      *      x: The x coordineate for the platform.
      *      y: The y coordineate for the platform.
      *      scaleX: OPTIONAL The scale factor on the x-axis, this value will 
@@ -36,9 +36,16 @@
          */
         createPlatform(0, game.world.height - 32, 3, 2);    // DO NOT DELETE
 
-        // example:
-        createPlatform(400, 250);
-        createPlatform(170, 460, 0.5);
+        createPlatform(100,580,0.3)
+        createPlatform(200,450,0.2)
+        createPlatform(400,500,0.4)
+        createPlatform(500,400,0.5)
+        createPlatform(800,250,0.3)
+        createPlatform(600,200,0.4)
+        createPlatform(350,150,0.5)
+        createPlatform(200,100,0.2)
+
+
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
