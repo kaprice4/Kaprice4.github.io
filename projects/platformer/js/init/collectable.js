@@ -46,7 +46,7 @@
         createCollectable(type.db, 500, 350, 6, 0.7);
         createCollectable(type.db, 800, 200, 6, 0.7);
         createCollectable(type.db, 600, 150, 6, 0.7);
-        createCollectable(type.db, 350, 100, 6, 0.7);
+        //createCollectable(type.db, 350, 100, 6, 0.7);
         createCollectable(type.db, 200, 50, 6, 0.7);
 
 
