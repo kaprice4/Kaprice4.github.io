@@ -40,14 +40,14 @@
         // createCollectable(type.steve, 200, 170, 6, 0.7);
         // createCollectable(type.points, 100,580,);
 
-        createCollectable(type.db, 100, 500, 6, 0.7);
-        createCollectable(type.db, 200, 400, 6, 0.7);
-        createCollectable(type.db, 400, 450, 6, 0.7);
-        createCollectable(type.db, 500, 350, 6, 0.7);
-        createCollectable(type.db, 800, 200, 6, 0.7);
-        createCollectable(type.db, 600, 150, 6, 0.7);
+        createCollectable(type.grace, 100, 500, 6, 0.7);
+        createCollectable(type.grace, 200, 400, 6, 0.7);
+        createCollectable(type.grace, 400, 450, 6, 0.7);
+        createCollectable(type.grace, 500, 350, 6, 0.7);
+        createCollectable(type.grace, 800, 200, 6, 0.7);
+        createCollectable(type.grace, 600, 150, 6, 0.7);
         //createCollectable(type.db, 350, 100, 6, 0.7);
-        createCollectable(type.db, 200, 50, 6, 0.7);
+        createCollectable(type.grace, 200, 50, 6, 0.7);
 
 
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
