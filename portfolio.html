@@ -1,112 +1,128 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title> Kaprice's Astonishing Website  </title> 
-        <style type="text/css">
-            body {
-                background:  rgb(11, 230, 230);
-                color:white);
-                padding: 10px;
-                font-family:'Times New Roman';
-            }
-            header {
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-            
-            #all-contents {
-                max-width: 800px;
-                margin: auto;
-                background-color:rgb(197, 178, 228)
-            }
-    
-            /* navigation menu */
-            nav {
-                background-color: rgb(197, 178, 238);
-                margin: 0 auto;
-                display: flex;
-                padding: 10px;
-            } 
-  border:  { 2px solid red;
-  padding: 10px;
-  border-radius: 50px 20px;
 
-            }
-            h1 {
-                display: flex;
-                align-items: center;
-                color: white;
-                flex: 1;
-            }
-            #nav-ul {
-                list-style-image: none;
-            }
-            .nav-li {
-                display: inline-block;
-                padding: 0 10px;
-            }
-            .nav-a {
-                text-decoration: none;
-                color:white;
-            }
-    
-            /* main container area beneath menu */
-            main {
-                background:  rgb(227, 219, 245);
-                display: flex;
-            }
-            .content {
-                flex: 1;
-                padding: 15px;
-            }
-         #portfolio {
-             list-style-type: none;
-             padding-left: 0;
-         }
-         
-         #portfolio li {
-             background: rgb(246, 250, 6);
-             padding: 10px;
-             border-radius: 10px;
-             margin-bottom: 10px;
-         }
-         
-         #portfolio li:hover {
-             background: rgb(14, 152, 233);
-         } 
-         
-         #portfolio a {
-             text-decoration: none;
-             color: #454545;
-         }
-         
-        </style>
-    </head>
+<head>
+    <title> Kaprice's Astonishing Website </title>
+    <style type="text/css">
+        body {
+            background: rgb(11, 230, 230);
+            color: white;
+            padding: 10px;
+            font-family: "Times New Roman";
+        }
 
-    <body>
-      <div id="all-contents">
+        header {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+            background-color: rgb(197, 178, 228)
+        }
+
+        /* navigation menu */
+        nav {
+            background-color: rgb(197, 178, 238);
+            margin: 0 auto;
+            margin-bottom: 20px;
+            display: flex;
+            padding: 10px;
+
+
+
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            color: white;
+            flex: 1;
+        }
+
+        #nav-ul {
+            list-style-image: none;
+        }
+
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        .nav-a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* main container area beneath menu */
+        main {
+            background: rgb(227, 219, 245);
+            display: flex;
+        }
+
+        .content h1 {
+            color: whitesmoke;
+        }
+
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #eee;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #16beca;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all-contents">
         <nav>
             <h1>The Life of Kaprice! </h1>
-                <ul id="nav-ul"> 
-                    <li class="nav-li">
+            <ul id="nav-ul">
+                <li class="nav-li">
                     <a class="nav-a" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-li">
-                        <a class="nav-a" href="portfolio.html">Portfolio</a>
-                    </li>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-a" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="content">
+                <h1> Portfolio </h1>
+                <ul id="portfolio">
+                    <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game
+                            development on the web </a></li>
+                    <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and
+                            velocity applied to circle shapes...</a></li>
+                    <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure
+                            game for Halleb0t</a></li>
+                    <li><a
+                            href="https://docs.google.com/document/d/1s2fbf-5hs_lFDQ9j8SI4Gr2wm39jHX0_Tq9Lt0piTeU/edit#heading=h.aagfqklm9zwt">Resume
+                            : Letting you see everything that I've particpated in so far.</a></li>
                 </ul>
-       </nav>
-       <main>   
-           <div class="content">
-               <h1> Portfolio </h1>
-               <ul id="Portfolio">
-                <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game development on the web </a></li>
-                <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity applied to circle shapes...</a></li>
-                <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure game for Halleb0t</a></li>
-                <li><a href="https://docs.google.com/document/d/1s2fbf-5hs_lFDQ9j8SI4Gr2wm39jHX0_Tq9Lt0piTeU/edit#heading=h.aagfqklm9zwt">Resume : Letting you see everything that I've particpated in so far.</a></li>
-              </ul>
-           </div>
-       </main>
-      </div>
-    </body>
+            </div>
+        </main>
+    </div>
+</body>
+
 </html>
